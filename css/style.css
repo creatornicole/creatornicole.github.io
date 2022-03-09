@@ -1,0 +1,88 @@
+/*=========================================================================
+Stylesheet for my CV 03/22
+
+file: style.css
+date: 09.03.2022
+author: Nicole Gottschall
+==========================================================================*/
+
+/* currently mobile only design*/
+/* still in progress */
+
+/*=========================================================================
+Variables
+==========================================================================*/
+:root {
+  --light-orange: hsl(18, 100%, 67%);
+  --light-yellow: hsl(51, 100%, 75%);
+}
+/*=========================================================================
+General Styles
+==========================================================================*/
+
+
+/*=========================================================================
+Layout
+==========================================================================*/
+.header-section {
+  margin-top: 125px;
+  text-align: center;
+}
+
+.contact-section {
+  width: 250px;
+}
+
+.email {
+  background: url(../images/email.png);
+}
+
+.github {
+  background: url(../images/github.png);
+}
+
+.insta {
+  background: url(../images/instagram.png);
+}
+
+.contact {
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: center;
+  background-color: var(--light-orange);
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+}
+
+.section-link {
+  padding: 30px 10px;
+  width: 60px;
+  background-color: var(--light-yellow);
+  border-radius: 100px;
+}
+
+/*=========================================================================
+Image Settings
+==========================================================================*/
+.portrait {
+  width: 200px;
+  height: 200px;
+}
+
+.contact-img {
+  width: 45px;
+  height: 45px;
+}
+
+.star {
+  width: 17px;
+  height: 17px;
+}
+
+/*=========================================================================
+Others
+==========================================================================*/
+.section-link a {
+  text-decoration: none;
+}
