@@ -85,7 +85,6 @@ Image Settings
 
 .arrow-icon {
   position: absolute;
-  left: 50%;
   bottom: 27px;
   height: 50px;
   width: 50px;
@@ -173,6 +172,10 @@ Adjustments Mobile (<= 1048px)
   li span {
     display: none;
   }
+
+  .arrow-icon {
+    left: 46%;
+  }
 }
 
 /*=========================================================================
@@ -207,5 +210,9 @@ Adjustments Desktop (>= 1048px)
 
   ul li {
     padding: 20px 40px;
+  }
+
+  .arrow-icon {
+    left: 48%;
   }
 }
