@@ -3,19 +3,11 @@ Stylesheet for my CV 03/22
 
 file: style.css
 created: 09.03.2022
-updated: 10.03.2022
+updated: 17.03.2022
 author: Nicole Gottschall
 ==========================================================================*/
 
-/* currently mobile only design*/
-/* still in progress */
-
-/* ToDo:
-- adjust color
-- change link design
-- instead of list elements create table
-- adjust design for bigger screens
-*/
+/* desktop only */
 
 
 
@@ -23,126 +15,34 @@ author: Nicole Gottschall
 Variables
 ==========================================================================*/
 :root {
-  --light-orange: hsl(18, 100%, 67%);
-  --light-yellow: hsl(51, 100%, 75%);
-  --very-light-orange: hsl(23, 100%, 89%);
-  --slight-orange: hsl(18, 100%, 92%);
-  --saturated-yellow: hsl(41, 87%, 57%);
+
 }
+
 /*=========================================================================
 General Styles
 ==========================================================================*/
-body {
-  font-family: 'Overpass';
-  font-weight: 500;
-  padding: 10px;
-  background-color: var(--very-light-orange);
-}
+
 
 /*=========================================================================
 Layout
 ==========================================================================*/
-.header-section {
-  margin: 125px auto 0;
-  text-align: center;
-  max-width: 400px;
-  background: url(../images/portrait-circle-cropped.png) no-repeat;
-  background-size: 240px;
-  background-position: center;
-}
 
-.email {
-  position: relative;
-  top: 220px;
-  left: 27px;
-  background: url(../images/email.png);
-}
-
-.github {
-  position: relative;
-  top: 212px;
-  left: 54px;
-  background: url(../images/github.png);
-}
-
-.insta {
-  position: relative;
-  top: 190px;
-  left: 100px;
-  background: url(../images/instagram.png);
-}
-
-.contact {
-  background-repeat: no-repeat;
-  background-size: 40px;
-  background-position: center;
-  background-color: var(--light-orange);
-  width: 60px;
-  height: 60px;
-  border-radius: 100px;
-}
-
-.section-link {
-  padding: 30px 10px;
-  width: 60px;
-  background-color: var(--light-yellow);
-  border-radius: 100px;
-}
-
-.about-link {
-  position: relative;
-  top: -170px;
-  left: 180px;
-}
-
-.education-link {
-  position: relative;
-  top: -219px;
-  left: 253px;
-}
-
-.skills-link {
-  position: relative;
-  top: -239px;
-  left: 303px;
-}
-
-.info-section {
-  margin: 50px 30px 0 30px;
-  padding: 20px 40px;
-  border-radius: 7px;
-  background-color: var(--slight-orange);
-}
-
-#about {
-  border-top: 7px solid var(--light-orange);
-}
-
-#education {
-  border-top: 7px solid var(--saturated-yellow);
-}
-
-
-#skills {
-  border-top: 7px solid hsl(18, 67%, 60%);
-}
 
 /*=========================================================================
 Image Settings
 ==========================================================================*/
-.contact-img {
-  width: 45px;
-  height: 45px;
+.portrait {
+  height: 250px;
+  width: 250px;
 }
 
-.star {
-  width: 17px;
-  height: 17px;
+.contact-icon {
+  margin-right: 5px;
+  vertical-align: middle;
+  height: 18px;
+  width: 18px;
 }
 
 /*=========================================================================
 Others
 ==========================================================================*/
-.section-link a {
-  text-decoration: none;
-}
