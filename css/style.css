@@ -15,18 +15,104 @@ author: Nicole Gottschall
 Variables
 ==========================================================================*/
 :root {
-
+  --very-light-brown: #fefff8;
+  --very-dark-grey: #5e5b63;
 }
 
 /*=========================================================================
 General Styles
 ==========================================================================*/
+body {
+  font-family: 'Josefin Sans';
+  color: var(--very-dark-grey);
+  height: 100vh;
+}
 
+h1, h4 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 54px;
+}
+
+h4 {
+  font-size: 21px;
+  font-weight: 300;
+}
+
+ul {
+  padding-right: 20px;
+  text-align: right;
+}
+
+ul li {
+  padding: 20px 40px;
+  display: inline-block;
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.skills-table tr{
+  border-bottom: .3px solid var(--very-dark-grey);
+}
+
+td {
+  padding: 10px 25px 10px 0;
+}
+
+td.first-column {
+  padding-right: 10px;
+}
+
+td.second-column {
+  padding-right: 40px;
+}
 
 /*=========================================================================
 Layout
 ==========================================================================*/
+.upper-part {
+  height: 100%;
+  background: url("../images/wavy-background.svg"), url("../images/light-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom left, 0;
+}
 
+.introduction-section {
+  display: flex;
+  margin: 100px auto 0;
+  padding: 120px;
+  max-width: 800px;
+}
+
+.heading {
+  flex: auto;
+  line-height: 55px;
+}
+
+.bottom-part {
+  height: 100vh;
+  background-color: var(--very-light-brown);
+}
+
+.bottom-containers {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 1200px;
+}
+
+.bottom-container {
+  padding: 30px;
+  width: 400px;
+}
 
 /*=========================================================================
 Image Settings
@@ -42,6 +128,18 @@ Image Settings
   height: 18px;
   width: 18px;
 }
+
+.skill-icon {
+  height: 32px;
+  width: 32px,
+}
+
+.star-icon {
+  margin-right: 5px;
+  height: 18px;
+  width: 18px;
+}
+
 
 /*=========================================================================
 Others
