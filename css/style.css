@@ -5,13 +5,12 @@ file: style.css
 created: 09.03.2022
 updated: 17.03.2022
 author: Nicole Gottschall
+
+Mind the adjustments for different screen sizes at the end of the stylesheet.
 ==========================================================================*/
 
-/* desktop only */
 /* TODO:
-- adjust design for mobile
-- link design
-- onclick button to jump to bottom part
+- add smooth transition when clicking on arrow to jump to bottom part
  */
 
 
@@ -84,6 +83,14 @@ Image Settings
   width: 18px;
 }
 
+.arrow-icon {
+  position: absolute;
+  left: 50%;
+  bottom: 27px;
+  height: 50px;
+  width: 50px;
+}
+
 .skill-icon {
   height: 32px;
   width: 32px,
@@ -99,6 +106,43 @@ Image Settings
 /*=========================================================================
 Others
 ==========================================================================*/
+.contact a:link,
+.contact a:visited,
+.contact a:hover {
+  color: var(--very-dark-grey);
+  text-decoration: none;
+}
+
+ul {
+  padding-right: 20px;
+  text-align: right;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.skills-table tr{
+  border-bottom: .3px solid var(--very-dark-grey);
+}
+
+td {
+  padding: 10px 25px 10px 0;
+}
+
+td.first-column {
+  padding-right: 10px;
+}
+
+td.second-column {
+  padding-right: 40px;
+}
+
 
 /*=========================================================================
 Adjustments Mobile (<= 1048px)
