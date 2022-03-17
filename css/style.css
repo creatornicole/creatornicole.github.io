@@ -46,37 +46,6 @@ h4 {
   font-weight: 300;
 }
 
-ul {
-  padding-right: 20px;
-  text-align: right;
-}
-
-ul li {
-  padding: 20px 40px;
-  display: inline-block;
-  list-style-type: none;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-.skills-table tr{
-  border-bottom: .3px solid var(--very-dark-grey);
-}
-
-td {
-  padding: 10px 25px 10px 0;
-}
-
-td.first-column {
-  padding-right: 10px;
-}
-
-td.second-column {
-  padding-right: 40px;
-}
-
 /*=========================================================================
 Layout
 ==========================================================================*/
@@ -86,13 +55,6 @@ Layout
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom left, 0;
-}
-
-.introduction-section {
-  display: flex;
-  margin: 100px auto 0;
-  padding: 120px;
-  max-width: 800px;
 }
 
 .heading {
@@ -106,17 +68,7 @@ Layout
 }
 
 .bottom-containers {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  width: 1200px;
-}
-
-.bottom-container {
-  padding: 30px;
-  width: 400px;
+  background-color: var(--very-light-brown);
 }
 
 /*=========================================================================
@@ -128,8 +80,6 @@ Image Settings
 }
 
 .contact-icon {
-  margin-right: 5px;
-  vertical-align: middle;
   height: 18px;
   width: 18px;
 }
@@ -149,3 +99,69 @@ Image Settings
 /*=========================================================================
 Others
 ==========================================================================*/
+
+/*=========================================================================
+Adjustments Mobile (<= 1048px)
+==========================================================================*/
+@media all and (max-width: 1156px) {
+  .introduction-section {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .heading {
+    margin: 30px 0;
+  }
+
+  .bottom-containers {
+    padding: 90px 0 85px;
+  }
+
+  .bottom-container {
+    margin: 100px auto 0;
+    width: 350px;
+  }
+
+  ul li {
+    padding: 20px 7px;
+  }
+
+  li span {
+    display: none;
+  }
+}
+
+/*=========================================================================
+Adjustments Desktop (>= 1048px)
+==========================================================================*/
+@media all and (min-width: 1156px) {
+  .introduction-section {
+    display: flex;
+    margin: 100px auto 0;
+    padding: 120px;
+    max-width: 800px;
+  }
+
+  .bottom-containers {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 1200px;
+  }
+
+  .bottom-container {
+    padding: 30px;
+    width: 400px;
+  }
+
+  .contact-icon {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  ul li {
+    padding: 20px 40px;
+  }
+}
