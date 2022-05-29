@@ -70,6 +70,15 @@ Layout
   background-color: var(--very-light-brown);
 }
 
+.me {
+  margin-bottom: 75px;
+}
+
+.reference {
+  display: flex;
+
+}
+
 /*=========================================================================
 Image Settings
 ==========================================================================*/
@@ -101,13 +110,19 @@ Image Settings
   width: 18px;
 }
 
+.ref-logo {
+  margin: 10px 30px 20px 0 ;
+  height: 70px;
+  width: 70px;
+}
+
 
 /*=========================================================================
 Others
 ==========================================================================*/
-.contact a:link,
-.contact a:visited,
-.contact a:hover {
+a:link,
+a:visited,
+a:hover {
   color: var(--very-dark-grey);
   text-decoration: none;
 }
@@ -134,12 +149,8 @@ td {
   padding: 10px 25px 10px 0;
 }
 
-td.first-column {
-  padding-right: 10px;
-}
-
-td.second-column {
-  padding-right: 40px;
+.reference p {
+  margin: auto 0;
 }
 
 
