@@ -159,7 +159,7 @@ Adjustments Mobile (<= 1048px)
 ==========================================================================*/
 @media all and (max-width: 1156px) {
   .introduction-section {
-    padding: 15px;
+    padding: 5px;
     text-align: center;
   }
 
@@ -172,8 +172,7 @@ Adjustments Mobile (<= 1048px)
   }
 
   .bottom-container {
-    margin: 100px auto 0;
-    width: 350px;
+    margin: 100px 10px 0;
   }
 
   ul li {
@@ -182,6 +181,11 @@ Adjustments Mobile (<= 1048px)
 
   li span {
     display: none;
+  }
+
+  .contact-icon {
+    height: 24px;
+    width: 24px;
   }
 
   .arrow-icon {
