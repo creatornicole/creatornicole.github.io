@@ -10,6 +10,7 @@ Mind the adjustments for different screen sizes at the end of the stylesheet.
 ==========================================================================*/
 
 /* TODO:
+- add additional design for size between mobile and desktop
 - add smooth transition when clicking on arrow to jump to bottom part
  */
 
@@ -159,7 +160,7 @@ Adjustments Mobile (<= 1048px)
 ==========================================================================*/
 @media all and (max-width: 1156px) {
   body {
-    font-size: 24px;
+    font-size: 36px;
   }
 
   .introduction-section {
@@ -177,7 +178,7 @@ Adjustments Mobile (<= 1048px)
 
   .bottom-container {
     margin: 100px auto;
-    width: 450px;
+    width: 600px;
   }
 
   .me {
@@ -185,7 +186,7 @@ Adjustments Mobile (<= 1048px)
   }
 
   ul li {
-    padding: 20px 7px;
+    padding: 20px 17px;
   }
 
   li span {
@@ -193,8 +194,8 @@ Adjustments Mobile (<= 1048px)
   }
 
   .contact-icon {
-    height: 24px;
-    width: 24px;
+    height: 35px;
+    width: 35px;
   }
 
   .arrow-icon {
