@@ -158,6 +158,10 @@ td {
 Adjustments Mobile (<= 1048px)
 ==========================================================================*/
 @media all and (max-width: 1156px) {
+  body {
+    font-size: 28px;
+  }
+
   .introduction-section {
     padding: 5px;
     text-align: center;
@@ -168,11 +172,16 @@ Adjustments Mobile (<= 1048px)
   }
 
   .bottom-containers {
-    padding: 90px 0 85px;
+    padding: 185px 0 0;
   }
 
   .bottom-container {
-    margin: 100px 10px 0;
+    margin: 100px auto 150px;
+    width: 450px;
+  }
+
+  .me {
+    margin-bottom: 150px;
   }
 
   ul li {
