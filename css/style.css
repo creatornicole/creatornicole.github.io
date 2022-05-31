@@ -157,7 +157,7 @@ td {
 /*=========================================================================
 Adjustments Mobile (<= 1048px)
 ==========================================================================*/
-@media all and (max-width: 1156px) {
+@media all and (max-width: 750px) {
   .introduction-section {
     padding: 5px;
     text-align: center;
@@ -196,7 +196,7 @@ Adjustments Mobile (<= 1048px)
 /*=========================================================================
 Adjustments Desktop (>= 1048px)
 ==========================================================================*/
-@media all and (min-width: 1156px) {
+@media all and (min-width: 750px) {
   .introduction-section {
     display: flex;
     margin: 100px auto 0;
